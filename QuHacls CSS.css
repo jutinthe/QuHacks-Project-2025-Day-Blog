@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shadows+Into+Light&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teko:wght@300..700&display=swap');
+body{
+    background-color: aquamarine;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    border-radius: 8px;
+    border:2px solid #000;
+    margin-bottom: 10px;
+  }
+  nav { 
+    background-color: #4400ff; 
+    padding: 10px; 
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #000;
+} 
+
+nav a { 
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px; 
+    margin-right: 10px; 
+    display: inline-block; 
+} 
+
+  .p1 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+  }  
+  .p2{
+    font-family: "Playfair Display", serif;
+    color: black;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .p3{
+    font-family:"Shadows Into Light", cursive;
+    color:black;
+    font-optical-sizing:auto;
+    font-style: normal;
+  }
+
+  .p4{
+    font-family:"Shadows Into Light", cursive;
+    color:white;
+    font-optical-sizing:auto;
+    font-style: normal;
+  }
+ 
+  .container {
+    display: flex;
+    justify-content: flex-start; 
+    max-width: 75%;   
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.article p { 
+    text-align: justify; 
+} 
+
+.main {
+    flex-grow: 1; 
+    margin-right: 20px;  
+}
+
+.article { 
+    margin-bottom: 20px; 
+    padding: 10px 20px; 
+    border: 1px solid rgb(145, 145, 145); 
+    margin-right: 10px; 
+} 
+
+.aside { 
+    flex: 1; 
+    background-color: #c9c9c9; 
+    padding: 10px; 
+} 
+
+
+.container1 {
+    background-color: #9bf89b; 
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #000; 
+    margin-top: 10px;
+    margin-bottom:10px;
+    max-width: 75%;
+}
+.container1 p{
+    text-align: center;
+}
+
+
+.container2 {
+    background-color: #add8e6; 
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #000; 
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+    max-width: 75%;
+}
+.container2 p{
+    text-align: center;
+}
+
+.container3 {
+    background-color: #adb2e6; 
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #000; 
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+    max-width: 75%;
+}
+.container3 p{
+    text-align: center;
+}
+.container4 {
+    background-color: #d8ade6; 
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #000; 
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:50px;
+    max-width: 75%;
+}
+.container4 p{
+    text-align: center;
+}
+.sidebar {
+    position: relative;
+    width: 223px;
+    height: 1340px;
+    background-color: #fffb00;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float:right;
+    margin-top: 10px;
+    
+}
+
+.sidebar-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #f5ff9f;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.dropdown:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-list li {
+    margin: 10px 0;
+}
+
+.sidebar-link {
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
